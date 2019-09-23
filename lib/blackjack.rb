@@ -49,8 +49,7 @@ end
 def runner
   welcome
   initial_round
-  hit?
-  hit?
-  deal_card
+  until card_total > 21
+    
 end
     
